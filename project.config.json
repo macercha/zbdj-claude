@@ -36,9 +36,19 @@
   "skills": {
     "byStack": {
       "python": {
-        "conventions": ["python-django-drf", "zibanu-django-conventions"],
-        "documentation": ["python-documenter"]
+        "conventions": [
+          "python-django-drf",
+          "zibanu-django-conventions"
+        ],
+        "documentation": [
+          "python-documenter"
+        ]
       }
+    }
+  },
+  "rules": {
+    "paths": {
+      "bySubproject": ".claude/rules/{pkg}.md"
     }
   },
   "documentation": {
@@ -46,7 +56,10 @@
       "kb": "SysArch/KB/{pkg}",
       "kbCentral": "~/projects/Claude/KB/{pkg}"
     },
-    "centralArtifacts": ["json", "api"],
+    "centralArtifacts": [
+      "json",
+      "api"
+    ],
     "description": "'kb' es el destino primario del bundle de KB dentro del repositorio (fuente de verdad). 'kbCentral' es el repositorio central de KBs, COMPARTIDO entre proyectos, donde otros agentes consumen la KB de este paquete como input: la copia ahí NO es automática — solo se hace cuando el usuario lo pide explícitamente al terminar la generación (ver el paso de centralización del agente 'documentation'). 'centralArtifacts' limita lo que se publica a los grafos legibles por máquina ('json', 'api'); 'doc' y 'html' son vistas para humanos y se quedan en el repositorio. Como el árbol es compartido, '{pkg}' debe ser un nombre con espacio de nombres propio (aquí los 'id' llevan prefijo 'zb_') para no colisionar con paquetes homónimos de otros proyectos; OJO: otros repos (p. ej. Hydra en ~/projects/Claude/Hydra/KB) enlazan por symlink a '<kbCentral>/<pkg>', así que renombrar un 'id' obliga a re-apuntar esos enlaces. '~' se expande por shell; si un agente escribe con una herramienta que no expande '~', debe resolver $HOME primero."
   },
   "qa": {
@@ -71,14 +84,78 @@
     }
   },
   "subprojects": [
-    { "id": "zb_base",          "name": "zibanu.django",               "sourceRoot": "zibanu/django",               "stack": "python", "youtrack": { "application": "ZB_Base" } },
-    { "id": "zb_auth",          "name": "zibanu.django.auth",          "sourceRoot": "zibanu/django/auth",          "stack": "python", "youtrack": { "application": "ZB_Auth" } },
-    { "id": "zb_repository",    "name": "zibanu.django.repository",    "sourceRoot": "zibanu/django/repository",    "stack": "python", "youtrack": { "application": "ZB_Repository" } },
-    { "id": "zb_logging",       "name": "zibanu.django.logging",       "sourceRoot": "zibanu/django/logging",       "stack": "python", "youtrack": { "application": "ZB_Logging" } },
-    { "id": "zb_template",      "name": "zibanu.django.template",      "sourceRoot": "zibanu/django/template",      "stack": "python", "youtrack": { "application": "ZB_Template" } },
-    { "id": "zb_gis",           "name": "zibanu.django.gis",           "sourceRoot": "zibanu/django/gis",           "stack": "python", "youtrack": { "application": "ZB_Gis" } },
-    { "id": "zb_mqtt",          "name": "zibanu.django.mqtt",          "sourceRoot": "zibanu/django/mqtt",          "stack": "python", "youtrack": { "application": "ZB_Mqtt" } },
-    { "id": "zb_state_machine", "name": "zibanu.django.state_machine", "sourceRoot": "zibanu/django/state_machine", "stack": "python", "youtrack": { "application": "ZB_State_Machine" } }
+    {
+      "id": "zb_base",
+      "name": "zibanu.django",
+      "sourceRoot": "zibanu/django",
+      "stack": "python",
+      "youtrack": {
+        "application": "ZB_Base"
+      }
+    },
+    {
+      "id": "zb_auth",
+      "name": "zibanu.django.auth",
+      "sourceRoot": "zibanu/django/auth",
+      "stack": "python",
+      "youtrack": {
+        "application": "ZB_Auth"
+      }
+    },
+    {
+      "id": "zb_repository",
+      "name": "zibanu.django.repository",
+      "sourceRoot": "zibanu/django/repository",
+      "stack": "python",
+      "youtrack": {
+        "application": "ZB_Repository"
+      }
+    },
+    {
+      "id": "zb_logging",
+      "name": "zibanu.django.logging",
+      "sourceRoot": "zibanu/django/logging",
+      "stack": "python",
+      "youtrack": {
+        "application": "ZB_Logging"
+      }
+    },
+    {
+      "id": "zb_template",
+      "name": "zibanu.django.template",
+      "sourceRoot": "zibanu/django/template",
+      "stack": "python",
+      "youtrack": {
+        "application": "ZB_Template"
+      }
+    },
+    {
+      "id": "zb_gis",
+      "name": "zibanu.django.gis",
+      "sourceRoot": "zibanu/django/gis",
+      "stack": "python",
+      "youtrack": {
+        "application": "ZB_Gis"
+      }
+    },
+    {
+      "id": "zb_mqtt",
+      "name": "zibanu.django.mqtt",
+      "sourceRoot": "zibanu/django/mqtt",
+      "stack": "python",
+      "youtrack": {
+        "application": "ZB_Mqtt"
+      }
+    },
+    {
+      "id": "zb_state_machine",
+      "name": "zibanu.django.state_machine",
+      "sourceRoot": "zibanu/django/state_machine",
+      "stack": "python",
+      "youtrack": {
+        "application": "ZB_State_Machine"
+      }
+    }
   ],
   "requirementsAnalysis": {
     "outputSuffix": "_requerimientos",
