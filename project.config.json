@@ -1,0 +1,120 @@
+{
+  "project": {
+    "name": "Zibanu Django",
+    "description": "Framework Django modular: paquete base + paquetes opcionales distribuibles de forma independiente",
+    "language": "es",
+    "layout": "multi"
+  },
+  "youtrack": {
+    "project": "ZBDJ",
+    "syncLedger": ".claude/youtrack_sync.json"
+  },
+  "environment": {
+    "execution": "remote",
+    "transport": "ssh",
+    "host": "zibanu-io",
+    "remotePath": "/home/macercha/projects/zibanu/zibanuDjango",
+    "python": "~/.venv/zibanu.django/bin/python",
+    "commandTemplate": "ssh zibanu-io 'cd /home/macercha/projects/zibanu/zibanuDjango && {cmd}'",
+    "description": "Entorno de ejecución POR DEFECTO del proyecto, heredado por todo subproyecto que no declare el suyo. Hoy todos los subproyectos son Python/Django y NO existe entorno local: todo (manage.py, tests, migraciones, runserver, shell, pip) corre en un servidor remoto por SSH; el árbol local es solo edición y se refleja en el remoto en vivo. Un agente que ejecute código para un subproyecto que herede este entorno DEBE envolver el comando con 'commandTemplate' ({cmd} = comando remoto, p. ej. '~/.venv/zibanu.django/bin/python manage.py check') y no asumir un intérprete local. Resolución (multi): el 'environment' del subproyecto que casa por 'sourceRoot' de prefijo más largo gana; si el subproyecto no lo declara, hereda este top-level; si no hubiera ninguno, se asume ejecución local. Un subproyecto con entorno distinto (p. ej. un frontend Angular/React que corre local con npm) declara su propio bloque 'environment' en su entrada de subprojects[]."
+  },
+  "pathTemplate": {
+    "analysis": "SysArch/Analysis/{sub}",
+    "inputs": "SysArch/Analysis/{sub}/Inputs",
+    "userStories": "SysArch/Analysis/{sub}/1. User Stories",
+    "requirements": "SysArch/Analysis/{sub}/2. Requirements",
+    "requirementsFunctional": "SysArch/Analysis/{sub}/2. Requirements/Functional",
+    "requirementsNonFunctional": "SysArch/Analysis/{sub}/2. Requirements/Non-Functional",
+    "requirementsSystem": "SysArch/Analysis/{sub}/2. Requirements/System",
+    "specifications": "SysArch/Analysis/{sub}/3. Specifications",
+    "architecture": "SysArch/Analysis/{sub}/4. Architecture",
+    "detailedDesign": "SysArch/Analysis/{sub}/4. Architecture",
+    "knowledgeBase": "SysArch/KB/{sub}",
+    "exports": "SysArch/Exports/{sub}",
+    "logs": "SysArch/Logs/{sub}"
+  },
+  "skills": {
+    "byStack": {
+      "python": {
+        "conventions": ["python-django-drf", "zibanu-django-conventions"],
+        "documentation": ["python-documenter"]
+      }
+    }
+  },
+  "documentation": {
+    "paths": {
+      "kb": "SysArch/KB/{pkg}",
+      "kbCentral": "~/projects/Claude/KB/{pkg}"
+    },
+    "centralArtifacts": ["json", "api"],
+    "description": "'kb' es el destino primario del bundle de KB dentro del repositorio (fuente de verdad). 'kbCentral' es el repositorio central de KBs, COMPARTIDO entre proyectos, donde otros agentes consumen la KB de este paquete como input: la copia ahí NO es automática — solo se hace cuando el usuario lo pide explícitamente al terminar la generación (ver el paso de centralización del agente 'documentation'). 'centralArtifacts' limita lo que se publica a los grafos legibles por máquina ('json', 'api'); 'doc' y 'html' son vistas para humanos y se quedan en el repositorio. Como el árbol es compartido, '{pkg}' debe ser un nombre con espacio de nombres propio (aquí los 'id' llevan prefijo 'zb_') para no colisionar con paquetes homónimos de otros proyectos; OJO: otros repos (p. ej. Hydra en ~/projects/Claude/Hydra/KB) enlazan por symlink a '<kbCentral>/<pkg>', así que renombrar un 'id' obliga a re-apuntar esos enlaces. '~' se expande por shell; si un agente escribe con una herramienta que no expande '~', debe resolver $HOME primero."
+  },
+  "qa": {
+    "paths": {
+      "reports": "SysArch/QA/reports/{pkg}",
+      "metrics": "SysArch/QA/metrics/{pkg}",
+      "codeReviews": "SysArch/QA/code-reviews/{pkg}",
+      "audits": "SysArch/QA/audits/{pkg}"
+    }
+  },
+  "tests": {
+    "paths": {
+      "testModules": "unit_tests/{pkg}",
+      "results": "SysArch/Tester/{pkg}"
+    },
+    "run": {
+      "command": "ssh zibanu-io 'cd /home/macercha/projects/zibanu/zibanuDjango && ~/.venv/zibanu.django/bin/python manage.py test {label} --verbosity=2 2>&1'",
+      "labelAll": "unit_tests",
+      "labelPackage": "unit_tests.{pkg}",
+      "labelModule": "unit_tests.{pkg}.{module}",
+      "noiseFilter": "WARNING|post-quantum|store now|may need"
+    }
+  },
+  "subprojects": [
+    { "id": "zb_base",          "name": "zibanu.django",               "sourceRoot": "zibanu/django",               "stack": "python", "youtrack": { "application": "ZB_Base" } },
+    { "id": "zb_auth",          "name": "zibanu.django.auth",          "sourceRoot": "zibanu/django/auth",          "stack": "python", "youtrack": { "application": "ZB_Auth" } },
+    { "id": "zb_repository",    "name": "zibanu.django.repository",    "sourceRoot": "zibanu/django/repository",    "stack": "python", "youtrack": { "application": "ZB_Repository" } },
+    { "id": "zb_logging",       "name": "zibanu.django.logging",       "sourceRoot": "zibanu/django/logging",       "stack": "python", "youtrack": { "application": "ZB_Logging" } },
+    { "id": "zb_template",      "name": "zibanu.django.template",      "sourceRoot": "zibanu/django/template",      "stack": "python", "youtrack": { "application": "ZB_Template" } },
+    { "id": "zb_gis",           "name": "zibanu.django.gis",           "sourceRoot": "zibanu/django/gis",           "stack": "python", "youtrack": { "application": "ZB_Gis" } },
+    { "id": "zb_mqtt",          "name": "zibanu.django.mqtt",          "sourceRoot": "zibanu/django/mqtt",          "stack": "python", "youtrack": { "application": "ZB_Mqtt" } },
+    { "id": "zb_state_machine", "name": "zibanu.django.state_machine", "sourceRoot": "zibanu/django/state_machine", "stack": "python", "youtrack": { "application": "ZB_State_Machine" } }
+  ],
+  "requirementsAnalysis": {
+    "outputSuffix": "_requerimientos",
+    "traceLog": "{date}_requirements_trace.log"
+  },
+  "specificationAnalysis": {
+    "outputSuffix": "_especificacion",
+    "traceLog": "{date}_specification_trace.log",
+    "backlog": "backlog.json"
+  },
+  "architectureAnalysis": {
+    "outputFile": "arquitectura_alto_nivel.md",
+    "aiHandoff": "architecture_design.ai.json",
+    "traceLog": "{date}_architecture_trace.log"
+  },
+  "detailedDesignAnalysis": {
+    "outputSuffix": "_diseno_detallado",
+    "aiHandoffSuffix": ".detailed_design.ai.json",
+    "traceLog": "{date}_detailed_design_trace.log"
+  },
+  "pdfExport": {
+    "templateCodes": {
+      "1. User Stories": "CQ-SD-US",
+      "2. Requirements": "CQ-SD-REQ",
+      "3. Specifications": "CQ-SD-ESP",
+      "4. Architecture": "CQ-SD-ARQ",
+      "5. QA": "CQ-SD-QA"
+    },
+    "versionsLedger": "pdf_versions.json",
+    "traceLog": "{date}_pdf_export.log",
+    "excludeFiles": [
+      "README.md",
+      "TEMPLATE.md",
+      "PLANTILLA_*.md",
+      "GUIA_*.md",
+      "CHECKLIST_*.md"
+    ]
+  }
+}

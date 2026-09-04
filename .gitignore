@@ -1,0 +1,10 @@
+# ---------------------------------------------------------------------------
+# Overrides por máquina: NO se sincronizan entre equipos.
+# ---------------------------------------------------------------------------
+# `settings.local.json` fija permisos con rutas absolutas de esta máquina
+# (/Users/macercha/...). Versionarlo haría que un path de macOS pisara el de
+# Windows y viceversa. Misma regla que en el toolkit global (~/.claude).
+settings.local.json
+
+# macOS
+.DS_Store

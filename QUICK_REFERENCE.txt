@@ -1,0 +1,152 @@
+================================================================================
+                    ZIBANU DJANGO - DOCUMENTATION AGENT
+                           QUICK REFERENCE CARD
+================================================================================
+
+AGENT AVAILABLE: /documentation
+
+SYNTAX: /documentation <scope> <path>
+
+================================================================================
+SCOPES
+================================================================================
+
+FILE      - Document a single Python file with docstrings
+          Example: /documentation file zibanu/django/rest_framework/decorators.py
+
+DIRECTORY - Document entire package/directory with consistent style
+          Example: /documentation directory zibanu/django/auth
+
+README    - Generate comprehensive README.md for a package (EN + ES)
+          Example: /documentation readme zibanu/django/repository
+
+SWAGGER   - Generate OpenAPI/Swagger documentation for endpoints (EN + ES YAML)
+          Example: /documentation swagger zibanu/django/auth
+
+================================================================================
+PACKAGES TO DOCUMENT
+================================================================================
+
+CORE BASE (Always Installed):
+  • /documentation directory zibanu/django/rest_framework
+  • /documentation directory zibanu/django/db
+  • /documentation directory zibanu/django/api
+
+OPTIONAL PACKAGES:
+  • /documentation directory zibanu/django/auth
+  • /documentation directory zibanu/django/repository
+  • /documentation directory zibanu/django/logging
+  • /documentation directory zibanu/django/template
+  • /documentation directory zibanu/django/gis
+
+================================================================================
+QUICK TASKS
+================================================================================
+
+Document Auth Package (Full):
+  /documentation directory zibanu/django/auth
+  /documentation readme zibanu/django/auth
+
+Document Repository Package (Full):
+  /documentation directory zibanu/django/repository
+  /documentation readme zibanu/django/repository
+
+Document DRF Extensions:
+  /documentation directory zibanu/django/rest_framework
+
+Generate README for Package:
+  /documentation readme zibanu/django/<package>
+
+Document Single File:
+  /documentation file path/to/file.py
+
+================================================================================
+DOCUMENTATION FORMAT
+================================================================================
+
+Google-style docstrings with:
+  ✓ Brief description
+  ✓ Args with types and descriptions
+  ✓ Returns with type and description
+  ✓ Raises (exceptions that may be raised)
+  ✓ Example usage
+  ✓ Type hints
+
+README includes:
+  ✓ Overview and purpose
+  ✓ Installation instructions
+  ✓ Quick start example
+  ✓ Features list
+  ✓ Detailed usage guide
+  ✓ API reference
+  ✓ Configuration options
+  ✓ Testing instructions
+
+================================================================================
+TIPS
+================================================================================
+
+1. Use full paths from project root
+2. Document one scope at a time
+3. Review output for accuracy
+4. Add context if needed (package purpose, focus areas)
+5. Check existing READMEs before generating new ones
+
+================================================================================
+FILES IN .CLAUDE/
+================================================================================
+
+README.md                 - Overview and integration guide
+AGENTS.md               - Complete agent reference
+DOCUMENTATION_EXAMPLES.md - Real-world examples
+SWAGGER_DOCUMENTATION.md - Swagger/OpenAPI guide
+agents/documentation.md - Agent definition
+QUICK_REFERENCE.txt     - This file (you are here)
+
+================================================================================
+RELATED DOCUMENTATION
+================================================================================
+
+Architecture: ../CLAUDE.md
+  - Project structure
+  - Package distribution
+  - Common commands
+  - Development tasks
+
+Each package has:
+  - README.md (purpose, usage, API reference)
+  - Docstrings (implementation details)
+  - Comments (complex logic explanations)
+
+================================================================================
+COMMON PATTERNS
+================================================================================
+
+Sequential Package Documentation:
+  1. /documentation directory path/to/package
+  2. /documentation readme path/to/package
+  3. Review generated README.md
+  4. Repeat for next package
+
+Batch Documentation (all files):
+  /documentation directory zibanu/django/rest_framework
+  /documentation directory zibanu/django/db
+  /documentation directory zibanu/django/auth
+  /documentation directory zibanu/django/repository
+  ...and so on
+
+================================================================================
+DOCUMENTATION LEVELS
+================================================================================
+
+Level 1: CLAUDE.md (Architecture overview)
+   ↓
+Level 2: README.md (Package guides)
+   ↓
+Level 3: Docstrings (Code documentation)
+   ↓
+Level 4: Comments (Complex logic)
+
+================================================================================
+Questions? See .claude/README.md or AGENTS.md
+================================================================================
