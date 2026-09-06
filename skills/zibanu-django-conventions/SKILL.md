@@ -106,16 +106,29 @@ This section is the source of truth for how tests are written and run here. The
 global `test-writer` / `test-runner` agents carry only generic methodology and
 defer to this section for the project specifics.
 
-### Runner: `NoDbTestRunner` → local DB, no alternate test database
+### Runner: whatever `mainApp/env/dev/base.py` and `databases.py` define — never hardcode one
 
-`TEST_RUNNER = "mainApp.test_runner.NoDbTestRunner"` (`mainApp/env/dev/base.py`;
-verified effective) is a `DiscoverRunner` whose `setup_databases` /
-`teardown_databases` are **no-ops** — it **never creates or drops a separate
-`test_*` database**. Tests run against the **local/dev database the settings
-already point at** (currently MySQL/InnoDB `macercha_zibanu`). This runner is a
-**required precondition** for DB tests here: it's precisely what lets them use
-the local database instead of Django spinning up an alternate test DB. (You'll
-see `Skipping setup of unused database(s): default.` — that line is normal.)
+**Don't assume a fixed runner.** This project has used two different, equally
+valid mechanisms to get the same property (tests run against the **local/dev**
+database, never an alternate `test_*` one), and has switched between them
+(2026-09-06). Read `TEST_RUNNER` in `mainApp/env/dev/base.py` and the `TEST`
+block of each alias in `mainApp/env/dev/databases.py` fresh each time —
+don't cite one as "the" runner from memory:
+
+1. **Custom runner** — `TEST_RUNNER = "mainApp.test_runner.NoDbTestRunner"`, a
+   `DiscoverRunner` whose `setup_databases`/`teardown_databases` are **no-ops**:
+   it never creates or drops a `test_*` database, full stop.
+2. **Default `DiscoverRunner` + self-mirror** — `TEST_RUNNER` commented out
+   (Django's default runner applies), with `"TEST": {"MIRROR": "default"}` set
+   on the `default` alias **itself** in `databases.py`. Self-mirroring makes
+   Django skip creating a `test_*` database for that alias and connect directly
+   to it, without a custom runner class.
+
+**Both give DB-accessing tests the same contract**: no alternate database, real
+transactions against the live one. Whichever is active is a **precondition**
+for DB tests here — verify which one before asserting it in a report. (Either
+way you may see `Skipping setup of unused database(s): default.` when a run
+touches no `TestCase`; that line is normal under both mechanisms.)
 
 ### Which base class: `SimpleTestCase` (DB-free) vs `TestCase` (DB)
 
@@ -139,6 +152,31 @@ Pick the base class by whether the unit touches the ORM/DB:
   - **Never use `TransactionTestCase`** here: it does **not** roll back (it
     truncates tables between tests), which against the live local DB would wipe
     real data. Use `TestCase` (transactional rollback) only.
+
+### A `SimpleTestCase` building a SimpleJWT token from a string still touches the DB
+
+`Token(<encoded string>)` — e.g. `SlidingToken(raw_token_string)` — defaults to
+`verify=True`, which calls `check_blacklist()`: a real `BlacklistedToken.objects
+.filter(...).exists()` query, **regardless of which claims the token carries**.
+A `SimpleTestCase` that decodes a hand-built token string this way fails with
+`DatabaseOperationForbidden` on that query — not on anything the test author
+meant to exercise. This is easy to miss: avoiding `SlidingToken.for_user()`
+(which writes an `OutstandingToken` row) feels like it already ruled out every
+DB-touching path, but the string-decode constructor is a second, separate one.
+
+**Fix: pass `verify=False`** when the test only needs the decoded payload (e.g.
+exercising a claim-reading function or a guard clause), not full validation —
+this skips `check_blacklist()` while still exercising the code under test.
+Found in `unit_tests/zb_auth/test_token_session.py` (2026-09-06, ZBDJ-133):
+`GetUserFromTokenClaimTest` used `SimpleTestCase` deliberately, as an
+enforcement mechanism to prove `get_user_from_token` makes *no* query when the
+`user_id` claim is absent — and the missing `verify=False` defeated exactly
+that design, not a bug in the function under test. The same construction
+pattern (`Token(raw_helper(...))` with no `verify=False`) inside other
+`SimpleTestCase` classes in the same module (`RefreshGuardTest`,
+`ValidateSessionsTest`) surfaces the identical failure the moment any of their
+mocks let execution reach the real token constructor — verify this before
+assuming a 500 there is a code defect.
 
 ### Layout & naming
 

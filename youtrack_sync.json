@@ -1,666 +1,852 @@
 {
-  "project": "ZBDJ",
-  "last_sync": "2026-09-03T16:46:57.154433-05:00",
-  "items": {
-    "AUTH-R96": {
-      "issue": "ZBDJ-1",
-      "hash": "sha256:3e1579fa66b95341a99a22e0b3c1e2c8f176c406020da2e256d95b1383024b98",
-      "type": "QA",
-      "published_state": "Open"
-    },
-    "AUTH-R35": {
-      "issue": "ZBDJ-2",
-      "hash": "sha256:608a9dd3a4d8703f23b958bee208fb62bdb7b0bb8147296e107e5e55f49499ed",
-      "type": "QA",
-      "published_state": "Open"
-    },
-    "AUTH-R93": {
-      "issue": "ZBDJ-3",
-      "hash": "sha256:0c7dff688412bdb8c1e154b7d89503dae4889412f10bd3e958a28f48da319d85",
-      "type": "QA",
-      "published_state": "Open"
-    },
-    "AUTH-R17": {
-      "issue": "ZBDJ-4",
-      "hash": "sha256:78127edb63ef5e1a7f87b7a626b6c44c499ea3824760692545f2b3afb1124ad8",
-      "type": "QA",
-      "published_state": "Open"
-    },
-    "AUTH-R41": {
-      "issue": "ZBDJ-5",
-      "hash": "sha256:b451615cc441d430ec97b4758f07cc4a09d4907ebbc759ac1e6f71997bbc8ec3",
-      "type": "QA",
-      "published_state": "Open"
-    },
-    "AUTH-R44": {
-      "issue": "ZBDJ-6",
-      "hash": "sha256:a3ff57c722441a12d929f9a901831e8f5a0f8d7ff11f80061b404b21f92049a5",
-      "type": "QA",
-      "published_state": "Open"
-    },
-    "AUTH-R91": {
-      "issue": "ZBDJ-7",
-      "hash": "sha256:0b5c752722ef7bbc2554234e306984036db1233c19ca2ab523d82a62c1030313",
-      "type": "QA",
-      "published_state": "Open"
-    },
-    "AUTH-R92": {
-      "issue": "ZBDJ-8",
-      "hash": "sha256:0f1d2bf9371dcd2dce42f6db68d288e03d801af1f8dd903eba465ca3a020b7ce",
-      "type": "QA",
-      "published_state": "Open"
-    },
-    "AUTH-R94": {
-      "issue": "ZBDJ-9",
-      "hash": "sha256:c56c4e80f936de8a7ca0b3e75e820f0ec5689489005bdb571c05690f6fe5f387",
-      "type": "QA",
-      "published_state": "Open"
-    },
-    "AUTH-R95": {
-      "issue": "ZBDJ-10",
-      "hash": "sha256:f181dbc47c19aeff7a13f4e64750fcba23e1a63cb4357673e0d3db21eaf5c66e",
-      "type": "QA",
-      "published_state": "Open"
-    },
-    "AUTH-R97": {
-      "issue": "ZBDJ-11",
-      "hash": "sha256:e606eb96116604ad64e3aeb81bd5ea0dbd58aa2f2673392f12690c04541e3076",
-      "type": "QA",
-      "published_state": "Open"
-    },
-    "zb_auth::epic": {
-      "issue": "ZBDJ-12",
-      "hash": "sha256:d76a938af3ce1e6c35bf155341b285e7b1db27fab700b4109bafbfa97163f317",
-      "type": "Epic",
-      "published_state": "Planning"
-    },
-    "zb_auth::story::models": {
-      "issue": "ZBDJ-13",
-      "hash": "sha256:2906431a65e884f33dd42a975fbc1858eeeb10c529cce6bc6f6e05dc72f16697",
-      "type": "User Story",
-      "published_state": "Planning"
-    },
-    "zb_auth::story::api.services": {
-      "issue": "ZBDJ-14",
-      "hash": "sha256:f6d160b37212908019eaf4531480847172719d6722e3c0b26365961f3a43dc1a",
-      "type": "User Story",
-      "published_state": "Planning"
-    },
-    "zb_auth::story::api.serializers": {
-      "issue": "ZBDJ-15",
-      "hash": "sha256:bf693c15a77d9628936d0f154fa3527d87ee3f9bf0f0d00100adcb09cfa9d85a",
-      "type": "User Story",
-      "published_state": "Planning"
-    },
-    "zb_auth::story::lib": {
-      "issue": "ZBDJ-16",
-      "hash": "sha256:78e1b740c5c11e0dfbe3d477dc0e88a5fe903363f6f7bfc086343564ac5fcf50",
-      "type": "User Story",
-      "published_state": "Planning"
-    },
-    "zb_auth::story::views": {
-      "issue": "ZBDJ-17",
-      "hash": "sha256:63be2ff3fc580f28997c85ecb18e69363ae2fe84885a3fe05044bbb485d8bb3e",
-      "type": "User Story",
-      "published_state": "Planning"
-    },
-    "zb_auth::story::transversal": {
-      "issue": "ZBDJ-18",
-      "hash": "sha256:2dd14c90105f28023840abb9ef3296fdb4535439f93c72b0447885372321606e",
-      "type": "User Story",
-      "published_state": "Planning"
-    },
-    "zb_auth::story::lib.managers": {
-      "issue": "ZBDJ-19",
-      "hash": "sha256:6a893fd676b75a00c9243da1c5245a7a3cfee06d4f3bf4ada4555c91bf7f6196",
-      "type": "User Story",
-      "published_state": "Planning"
-    },
-    "zb_auth::story::(raiz)": {
-      "issue": "ZBDJ-20",
-      "hash": "sha256:2700944813edb4a82d6058224a971dea9991e404b5bab9765db4cb4d29e70495",
-      "type": "User Story",
-      "published_state": "Planning"
-    },
-    "zb_auth::story::api": {
-      "issue": "ZBDJ-21",
-      "hash": "sha256:afc0b3676cd85e0a6c183eca629b17f097af3b8ea2bd9989974c9129ef36000b",
-      "type": "User Story",
-      "published_state": "Planning"
-    },
-    "zb_auth::story::lib.enums": {
-      "issue": "ZBDJ-22",
-      "hash": "sha256:83a10c49e519ba694c85ee06971c854daf06024454c4b680bd387e01e0a75e8f",
-      "type": "User Story",
-      "published_state": "Planning"
-    },
-    "AUTH-S56": {
-      "issue": "ZBDJ-23",
-      "hash": "sha256:63bfc996c010aec40673cf66ad5dc0a8dfe0b5d0bba5acea27870ff012c240f3",
-      "type": "QA",
-      "published_state": "Reported"
-    },
-    "AUTH-S57": {
-      "issue": "ZBDJ-24",
-      "hash": "sha256:c848af5a510c5e703a886033b83326dac6f8a6409b6db5e02990924dc328b748",
-      "type": "QA",
-      "published_state": "Reported"
-    },
-    "AUTH-R1": {
-      "issue": "ZBDJ-25",
-      "hash": "sha256:85844cf460ea149936bdcbbdde99269798d21d146dacc5324c637e65fc4f886b",
-      "type": "QA",
-      "published_state": "Reported"
-    },
-    "AUTH-R6": {
-      "issue": "ZBDJ-26",
-      "hash": "sha256:78d2ad4c55e151b54d6468b40eec0b8a2e11c12e0d4c44ec139dae4aa8619ce9",
-      "type": "QA",
-      "published_state": "Open"
-    },
-    "AUTH-R7": {
-      "issue": "ZBDJ-27",
-      "hash": "sha256:5a7a8995f09d9a77898ca656020d1162c1c14dab2905a6f9e9de880b78b6d08b",
-      "type": "QA",
-      "published_state": "Open"
-    },
-    "AUTH-R8": {
-      "issue": "ZBDJ-28",
-      "hash": "sha256:a49cd156d99782a9cc0d99d6ab49a6e3ab0548d88ee6f4e7ba5ba2517dc2827e",
-      "type": "QA",
-      "published_state": "Open"
-    },
-    "AUTH-R9": {
-      "issue": "ZBDJ-29",
-      "hash": "sha256:8d06cf8c61300a3a15bda492ba222920d10e3fa4aad7e571531646aba0f6ac0b",
-      "type": "QA",
-      "published_state": "Open"
-    },
-    "AUTH-R10": {
-      "issue": "ZBDJ-30",
-      "hash": "sha256:4cd339503f289b54a595cc55f6ebdc4e0bb4a091f8c397cf32a8b4b8efff3ec3",
-      "type": "QA",
-      "published_state": "Open"
-    },
-    "AUTH-R11": {
-      "issue": "ZBDJ-31",
-      "hash": "sha256:7d577f0b44ca4d5674fc173438525bb8442421cf94aea1c3dddc89688d755de8",
-      "type": "QA",
-      "published_state": "Open"
-    },
-    "AUTH-R12": {
-      "issue": "ZBDJ-32",
-      "hash": "sha256:4e8a7263a8cd40619ba77794f41b2bf87eb27d2d50d0c5312104c20c532fc54c",
-      "type": "QA",
-      "published_state": "Open"
-    },
-    "AUTH-R13": {
-      "issue": "ZBDJ-33",
-      "hash": "sha256:8997619c648c4aaed7032a49a865cbc61514bce0fd84f05c5500da7f7b5e9928",
-      "type": "QA",
-      "published_state": "Open"
-    },
-    "AUTH-R14": {
-      "issue": "ZBDJ-34",
-      "hash": "sha256:9419ac5f5f0de4fab459e7efc9948ef9eeda46798ed494cee078ad63f700d5cb",
-      "type": "QA",
-      "published_state": "Open"
-    },
-    "AUTH-R15": {
-      "issue": "ZBDJ-35",
-      "hash": "sha256:ef466ed988e0a21261155adee062ac3f7d9b8e2b00d497c59113bce7c5d81ba3",
-      "type": "QA",
-      "published_state": "Open"
-    },
-    "AUTH-R16": {
-      "issue": "ZBDJ-36",
-      "hash": "sha256:88a9a6b6d908caf94f2eea6bffcf6a8288c2eef3bcfaaccd9b0e77ffc199e7c3",
-      "type": "QA",
-      "published_state": "Open"
-    },
-    "AUTH-R18": {
-      "issue": "ZBDJ-37",
-      "hash": "sha256:034bf5f7a798a4530de35029552a15bcda4bad6823267679a112520a963444bc",
-      "type": "QA",
-      "published_state": "Open"
-    },
-    "AUTH-R19": {
-      "issue": "ZBDJ-38",
-      "hash": "sha256:b05e0df2426c1c53286662e0143ab94aa39bb3813144a0ddf3949faf5ead99c5",
-      "type": "QA",
-      "published_state": "Open"
-    },
-    "AUTH-R20": {
-      "issue": "ZBDJ-39",
-      "hash": "sha256:c32c71a8fd87c2cfd54f9e75c56781452c61578afc62b2b38ac95e6cededc7ef",
-      "type": "QA",
-      "published_state": "Open"
-    },
-    "AUTH-R21": {
-      "issue": "ZBDJ-40",
-      "hash": "sha256:092a5d26b438312af1398a97eff935936a8db82d5c12bff2ea0134bd32793f7d",
-      "type": "QA",
-      "published_state": "Open"
-    },
-    "AUTH-R22": {
-      "issue": "ZBDJ-41",
-      "hash": "sha256:434830d79f521132d5f52222092cfecf166781f8870f5566e033afcf527b935b",
-      "type": "QA",
-      "published_state": "Open"
-    },
-    "AUTH-R23": {
-      "issue": "ZBDJ-42",
-      "hash": "sha256:115828f67c96c1a491a9377827598d246d5c417be68271c3146cc4f365744045",
-      "type": "QA",
-      "published_state": "Open"
-    },
-    "AUTH-R24": {
-      "issue": "ZBDJ-43",
-      "hash": "sha256:9f9e3178c0f2da0947736af070ce8684080f961ee96ced6a5802cee53f0fcc48",
-      "type": "QA",
-      "published_state": "Open"
-    },
-    "AUTH-R25": {
-      "issue": "ZBDJ-44",
-      "hash": "sha256:99121e5c069b40dff0de44d2a42ae5119e9b11ec7892a65968024f43c289ae03",
-      "type": "QA",
-      "published_state": "Open"
-    },
-    "AUTH-R26": {
-      "issue": "ZBDJ-45",
-      "hash": "sha256:e450839527d9725234074d7b0cc759926c639930ce8c6467b80100d7450fc36f",
-      "type": "QA",
-      "published_state": "Open"
-    },
-    "AUTH-R27": {
-      "issue": "ZBDJ-46",
-      "hash": "sha256:2bd6044a771dcb0e66dbb8ce6e519f2b3441bb3a85eac209b992c20bb6f617fb",
-      "type": "QA",
-      "published_state": "Open"
-    },
-    "AUTH-R28": {
-      "issue": "ZBDJ-47",
-      "hash": "sha256:77a7095549f7a4c83dbfe0f75043d8a92a91b296b2b1cbc8de14ea51925e3047",
-      "type": "QA",
-      "published_state": "Open"
-    },
-    "AUTH-R29": {
-      "issue": "ZBDJ-48",
-      "hash": "sha256:2ca662a01eb0ec75fb88450f1343b2fb7c570d9134efd37639b9ea08b75c9ec2",
-      "type": "QA",
-      "published_state": "Open"
-    },
-    "AUTH-R30": {
-      "issue": "ZBDJ-49",
-      "hash": "sha256:37494d0db34e99c0ef5ca0b77e805f0c4c7f18637baa2ead98172557990eef64",
-      "type": "QA",
-      "published_state": "Open"
-    },
-    "AUTH-R31": {
-      "issue": "ZBDJ-50",
-      "hash": "sha256:fb636c737dccfbd6d636a31b1065ffbaa40785c7f3e99d11ece4c813dfad7eef",
-      "type": "QA",
-      "published_state": "Open"
-    },
-    "AUTH-R32": {
-      "issue": "ZBDJ-51",
-      "hash": "sha256:82e10e3738f3fc7117c0189c45a5edd48a5615860f6effc803c882d6f71f29c3",
-      "type": "QA",
-      "published_state": "Open"
-    },
-    "AUTH-R33": {
-      "issue": "ZBDJ-52",
-      "hash": "sha256:1df553344fcfe0d16837708ca5ed8fe22921fe42a3a94d1e7ace401ce5a8a6c4",
-      "type": "QA",
-      "published_state": "Open"
-    },
-    "AUTH-R34": {
-      "issue": "ZBDJ-53",
-      "hash": "sha256:9c4b33cf8ba7899efe648d5f6a6d6d9b447136e1d97ebcd4b81db153fdcf70a7",
-      "type": "QA",
-      "published_state": "Open"
-    },
-    "AUTH-R36": {
-      "issue": "ZBDJ-54",
-      "hash": "sha256:0e614ffedeeef7a73719b0aae42518656921c0cccbf835100790fca0cbd62403",
-      "type": "QA",
-      "published_state": "Open"
-    },
-    "AUTH-R37": {
-      "issue": "ZBDJ-55",
-      "hash": "sha256:f4445e88bc6ed9b1fe00e1c22b606f836823fdffc05cdac4bfd74a575c26f78c",
-      "type": "QA",
-      "published_state": "Open"
-    },
-    "AUTH-R38": {
-      "issue": "ZBDJ-56",
-      "hash": "sha256:271969b80f72015260b877b8ab60f2dcd4734cc6345d18f6750cd1094b90cb5c",
-      "type": "QA",
-      "published_state": "Open"
-    },
-    "AUTH-R39": {
-      "issue": "ZBDJ-57",
-      "hash": "sha256:07c66982d102dc338ed3f87b79466386df500ede95e65b98fc55691a5bd1395f",
-      "type": "QA",
-      "published_state": "Open"
-    },
-    "AUTH-R40": {
-      "issue": "ZBDJ-58",
-      "hash": "sha256:69c6c07fecbef59c4f24184ef6456ae351d609b505a8b778af92ff3227c633dc",
-      "type": "QA",
-      "published_state": "Open"
-    },
-    "AUTH-R42": {
-      "issue": "ZBDJ-59",
-      "hash": "sha256:cd2bca38805f7057ed22e3f45b0af8bd6b3e35f6a688e0ff84c55bcb5cdcbdad",
-      "type": "QA",
-      "published_state": "Open"
-    },
-    "AUTH-R43": {
-      "issue": "ZBDJ-60",
-      "hash": "sha256:cc574e1c4299f4a8760c3e13d5a0f0b40c3beb1b811852b6c7f9b09ac91da2bc",
-      "type": "QA",
-      "published_state": "Open"
-    },
-    "AUTH-R45": {
-      "issue": "ZBDJ-61",
-      "hash": "sha256:752a270d610ac2dd5b898bdf3a93515af63609721e03042f0c4e93496d969d11",
-      "type": "QA",
-      "published_state": "Open"
-    },
-    "AUTH-R46": {
-      "issue": "ZBDJ-62",
-      "hash": "sha256:2c00ee64f68e69faea4f147c3acaeda512fd571b3a0f722876e920935cd2c5e0",
-      "type": "QA",
-      "published_state": "Open"
-    },
-    "AUTH-R47": {
-      "issue": "ZBDJ-63",
-      "hash": "sha256:d74fe467cab3a4a93e7f358842822e1eb66618161756f43ff212669817ceffa4",
-      "type": "QA",
-      "published_state": "Open"
-    },
-    "AUTH-R48": {
-      "issue": "ZBDJ-64",
-      "hash": "sha256:42a90d6b019f3f9a9eb7c5a8f1d85727414aff9d2933ae26664f72a57d97b604",
-      "type": "QA",
-      "published_state": "Open"
-    },
-    "AUTH-R49": {
-      "issue": "ZBDJ-65",
-      "hash": "sha256:9cce58db8222dad25c2be094f8efc2df370a53e8b31242524a011c0e0a42afc1",
-      "type": "QA",
-      "published_state": "Open"
-    },
-    "AUTH-R50": {
-      "issue": "ZBDJ-66",
-      "hash": "sha256:3195a37ec97e9f215e23e45d63272bd3b180f1852beea34cec084a142e366db3",
-      "type": "QA",
-      "published_state": "Open"
-    },
-    "AUTH-R51": {
-      "issue": "ZBDJ-67",
-      "hash": "sha256:9ba3dfda61c293fa081ec9c0a34cc69d954d51312ac6a1572dc7f9f3b1731ff9",
-      "type": "QA",
-      "published_state": "Open"
-    },
-    "AUTH-R52": {
-      "issue": "ZBDJ-68",
-      "hash": "sha256:4fdbb55fce6b1c5e4d09c4013c5e41129f67da21e56d4fe7342e15f8e68c66c4",
-      "type": "QA",
-      "published_state": "Open"
-    },
-    "AUTH-R53": {
-      "issue": "ZBDJ-69",
-      "hash": "sha256:c3a6280ac3ede8b2a5f9efe2f5f51a9d6469fd371760e1333aec81bad6009f78",
-      "type": "QA",
-      "published_state": "Open"
-    },
-    "AUTH-R54": {
-      "issue": "ZBDJ-70",
-      "hash": "sha256:cb927e56233f979fdfba16fd85b3dd86273153e6d0bb4e36de2e36bb193f034a",
-      "type": "QA",
-      "published_state": "Open"
-    },
-    "AUTH-R55": {
-      "issue": "ZBDJ-71",
-      "hash": "sha256:2eb88272b9a89679eb6a697f6a44439920586bcff9b0fd2d88c0aa2ad2439f0a",
-      "type": "QA",
-      "published_state": "Open"
-    },
-    "AUTH-R56": {
-      "issue": "ZBDJ-72",
-      "hash": "sha256:8111a8e741fc96137c772699f6816edd4d261110e7234d388cf1813acffa4782",
-      "type": "QA",
-      "published_state": "Open"
-    },
-    "AUTH-R57": {
-      "issue": "ZBDJ-73",
-      "hash": "sha256:b363ef758b011da39e970b4e547dde5d3cc25eccdfbefeb0870b5ec3fc5aba28",
-      "type": "QA",
-      "published_state": "Open"
-    },
-    "AUTH-R58": {
-      "issue": "ZBDJ-74",
-      "hash": "sha256:0d40370cd36b9609f2e99c9b5327f1f1c94a0bdac7ab6ebc7203070a9cb972e9",
-      "type": "QA",
-      "published_state": "Open"
-    },
-    "AUTH-R59": {
-      "issue": "ZBDJ-75",
-      "hash": "sha256:004bc69edee1b6e0c6fd769f755fc59a6ccf64bb57d42df55253491839894abb",
-      "type": "QA",
-      "published_state": "Open"
-    },
-    "AUTH-R60": {
-      "issue": "ZBDJ-76",
-      "hash": "sha256:0551273dc9f5fb192cd27274f08e9b7a0671f0562e073fc8c50a6ad4038b9205",
-      "type": "QA",
-      "published_state": "Open"
-    },
-    "AUTH-R61": {
-      "issue": "ZBDJ-77",
-      "hash": "sha256:853b7156244e13219a14770759194dfd0d084acd4dd2bf2559b735551928c263",
-      "type": "QA",
-      "published_state": "Open"
-    },
-    "AUTH-R62": {
-      "issue": "ZBDJ-78",
-      "hash": "sha256:eb3d1f24ab3c6985605eae344a0d7441ae176fe020201e8fcb83a8779fd1d56e",
-      "type": "QA",
-      "published_state": "Open"
-    },
-    "AUTH-R63": {
-      "issue": "ZBDJ-79",
-      "hash": "sha256:254b9db5fc2ddeceef909eceb3bace39d69da81a59bb0bc399bc4ab95e731364",
-      "type": "QA",
-      "published_state": "Open"
-    },
-    "AUTH-R64": {
-      "issue": "ZBDJ-80",
-      "hash": "sha256:b4c751659c805fafa03cf7c2fcffb7e82b7f9d3a62078c3accfe4e8f279d2d35",
-      "type": "QA",
-      "published_state": "Open"
-    },
-    "AUTH-R65": {
-      "issue": "ZBDJ-81",
-      "hash": "sha256:52910bec6356f7429eab7b85a7a8c14a9ebea48f01babf09143cb720630ee0b5",
-      "type": "QA",
-      "published_state": "Open"
-    },
-    "AUTH-R66": {
-      "issue": "ZBDJ-82",
-      "hash": "sha256:69457126687b86d2c850801f2d44823d100c0bda3e385ae503dae82e05d047da",
-      "type": "QA",
-      "published_state": "Open"
-    },
-    "AUTH-R67": {
-      "issue": "ZBDJ-83",
-      "hash": "sha256:9454a0db4d49e8bbbe13e7f82fd166932ac5f2379f84960d29c39c8eede3e74c",
-      "type": "QA",
-      "published_state": "Open"
-    },
-    "AUTH-R68": {
-      "issue": "ZBDJ-84",
-      "hash": "sha256:fc0cc93c833b02a0d9c4489610ac7e2204c825187f8369a7c2a4565412f63292",
-      "type": "QA",
-      "published_state": "Open"
-    },
-    "AUTH-R69": {
-      "issue": "ZBDJ-85",
-      "hash": "sha256:b78d3157519a5df2aca5e90bde45c2175d474cf589db980c14b5ee21bc44b5be",
-      "type": "QA",
-      "published_state": "Open"
-    },
-    "AUTH-R70": {
-      "issue": "ZBDJ-86",
-      "hash": "sha256:bb5ef212864b6e920bd84dd9615db154eb4964e8188824f3b36e213c143dc0a8",
-      "type": "QA",
-      "published_state": "Open"
-    },
-    "AUTH-R71": {
-      "issue": "ZBDJ-87",
-      "hash": "sha256:183b1385805a372a107d028cd1ccf77455c0a5410e1acb6f96db28960a4c3f8b",
-      "type": "QA",
-      "published_state": "Open"
-    },
-    "AUTH-R72": {
-      "issue": "ZBDJ-88",
-      "hash": "sha256:2919c31721319f83b46f620a08f47fbb76ab275058a0f616edae6f549d081c1a",
-      "type": "QA",
-      "published_state": "Open"
-    },
-    "AUTH-R73": {
-      "issue": "ZBDJ-89",
-      "hash": "sha256:1b5e18b5e906182d43c3a588154d54676c048f026beb8a7e31ed27dd02eda796",
-      "type": "QA",
-      "published_state": "Open"
-    },
-    "AUTH-R74": {
-      "issue": "ZBDJ-90",
-      "hash": "sha256:ad0ea2e4ca974422e44eb0788423c691551c8f09f220b97c79a04cc90ddebdaa",
-      "type": "QA",
-      "published_state": "Open"
-    },
-    "AUTH-R75": {
-      "issue": "ZBDJ-91",
-      "hash": "sha256:f0a84a15a389b204fd5c681dfa6ebce050a2410379e60eb600d75bc503f78fea",
-      "type": "QA",
-      "published_state": "Open"
-    },
-    "AUTH-R76": {
-      "issue": "ZBDJ-92",
-      "hash": "sha256:335e19070d7a0577db4ae7544d01f8b36f1b42353de0bab92571f0a8ca8985fb",
-      "type": "QA",
-      "published_state": "Open"
-    },
-    "AUTH-R77": {
-      "issue": "ZBDJ-93",
-      "hash": "sha256:e3fcb7c8c7b7d1181cf2b510315f562eee15d3d67c525f3b1c78b1e8909d357a",
-      "type": "QA",
-      "published_state": "Open"
-    },
-    "AUTH-R78": {
-      "issue": "ZBDJ-94",
-      "hash": "sha256:269b4b67b6063ec87e2ea401d3886543756d4309650be163e04de59a42c97128",
-      "type": "QA",
-      "published_state": "Open"
-    },
-    "AUTH-R79": {
-      "issue": "ZBDJ-95",
-      "hash": "sha256:8b348924ae8e00115e137fc1499481111512109adf56a6917866119db6d08fe8",
-      "type": "QA",
-      "published_state": "Open"
-    },
-    "AUTH-R80": {
-      "issue": "ZBDJ-96",
-      "hash": "sha256:2f1cc32680748e8f68792617089c14b9ddf21652e59f85a3f418d67503960ad6",
-      "type": "QA",
-      "published_state": "Open"
-    },
-    "AUTH-R81": {
-      "issue": "ZBDJ-97",
-      "hash": "sha256:9ffa3d360d697620bb09b25b7aa8418cacd98a7133ebcb62044c55c0dee348ff",
-      "type": "QA",
-      "published_state": "Open"
-    },
-    "AUTH-R82": {
-      "issue": "ZBDJ-98",
-      "hash": "sha256:f5eb0dbead70af60145d0baa849952904ce7354748f32a9095e19b0a9e3930ff",
-      "type": "QA",
-      "published_state": "Open"
-    },
-    "AUTH-R83": {
-      "issue": "ZBDJ-99",
-      "hash": "sha256:0f6c91cb7d9d0083fdb8a70bd4105d2cfeecf090ecb9827232d43b82f5dfee84",
-      "type": "QA",
-      "published_state": "Open"
-    },
-    "AUTH-R84": {
-      "issue": "ZBDJ-100",
-      "hash": "sha256:f8a3483687b3b80e7773a5f7c26abdb1b550e39b34f57df16fa3a54345ed590f",
-      "type": "QA",
-      "published_state": "Open"
-    },
-    "AUTH-R85": {
-      "issue": "ZBDJ-101",
-      "hash": "sha256:a4a78f27af54cba50a35387b3ea293bb159425a41ee76531f9f7f080e6c88ea8",
-      "type": "QA",
-      "published_state": "Open"
-    },
-    "AUTH-R86": {
-      "issue": "ZBDJ-102",
-      "hash": "sha256:ca2772da09b1cf5f4fd9a845f24d8316e32c247cbe43ef3abaac24bb45d4eb7b",
-      "type": "QA",
-      "published_state": "Open"
-    },
-    "AUTH-R87": {
-      "issue": "ZBDJ-103",
-      "hash": "sha256:6c9334a01e1423b8a7a75134d5418b77e41beea03eb8e32fc5b3c87de56141a6",
-      "type": "QA",
-      "published_state": "Open"
-    },
-    "AUTH-R88": {
-      "issue": "ZBDJ-104",
-      "hash": "sha256:8d46574be46a5ae10c73c037c56e2fd0e63b2e52346da0d28c615f885c5e6c45",
-      "type": "QA",
-      "published_state": "Open"
-    },
-    "AUTH-R89": {
-      "issue": "ZBDJ-105",
-      "hash": "sha256:7983856e59790dc5176796c9a71080dc29f3566cec05979d998314cc579873a7",
-      "type": "QA",
-      "published_state": "Open"
-    },
-    "AUTH-R90": {
-      "issue": "ZBDJ-106",
-      "hash": "sha256:31a74e51cd69b0f7fad28d883fad9e006c422a00e9c542d68362aa97c468df80",
-      "type": "QA",
-      "published_state": "Open"
-    },
-    "AUTH-R2": {
-      "issue": "ZBDJ-107",
-      "hash": "sha256:ef7d7d7a9aacdfcbf6a03d0cdc4a360b1a616459d420e1b3cbeffff34f7d7963",
-      "type": "QA",
-      "published_state": "Done"
-    },
-    "AUTH-R3": {
-      "issue": "ZBDJ-108",
-      "hash": "sha256:247fa8ae0f330e791ef8c8d726f48eaf922ec4cfc6e280605fc258cc414a5efd",
-      "type": "QA",
-      "published_state": "Done"
-    },
-    "AUTH-R4": {
-      "issue": "ZBDJ-109",
-      "hash": "sha256:b6d2da3748f36478bf5dbd7e6c14843604e23970b2ed1addab1c2246437d22a5",
-      "type": "QA",
-      "published_state": "Done"
-    },
-    "AUTH-R5": {
-      "issue": "ZBDJ-110",
-      "hash": "sha256:3ff819519b71a46c97b60f16bfc743de24bfcb3d354c610dc2cc38027171b14f",
-      "type": "QA",
-      "published_state": "Done"
+    "project": "ZBDJ",
+    "last_sync": "2026-09-06T00:00:00-05:00",
+    "items": {
+        "ZB_AUTH-TR1": {
+            "issue": "ZBDJ-133",
+            "hash": "sha256:7ecbcf177632b79febbeeac80953a3f1408eacde70e9e9de56516f067c94c44f",
+            "type": "Bug",
+            "published_state": "Planning"
+        },
+        "ZB_AUTH-TR2": {
+            "issue": "ZBDJ-134",
+            "hash": "sha256:5c7548b4c9f82ec12e813afaa815bdd640fe61e462954b78ce5fd010cddacc51",
+            "type": "Bug",
+            "published_state": "Planning"
+        },
+        "ZB_AUTH-TR3": {
+            "issue": "ZBDJ-135",
+            "hash": "sha256:b7c249fa6dfb15a056911784524aec045d9604d7cc927a0798f383962cd22f7c",
+            "type": "Bug",
+            "published_state": "Planning"
+        },
+        "ZB_AUTH-TR4": {
+            "issue": "ZBDJ-136",
+            "hash": "sha256:7da5386de9050fc17332a16b87842b9349cc3eeebee39464e6b2f64dfe3e7756",
+            "type": "Bug",
+            "published_state": "Planning"
+        },
+        "ZB_AUTH-TR5": {
+            "issue": "ZBDJ-137",
+            "hash": "sha256:0669c72e07bc3fec489b88ebb55d91894c6c8b82b2c0ea6845f6edf8b60db0c9",
+            "type": "Bug",
+            "published_state": "Planning"
+        },
+        "ZB_AUTH-TR6": {
+            "issue": "ZBDJ-138",
+            "hash": "sha256:ff4e29ddf98ecf831d3e0db8e1fff70a528809f6bfe54958f44a6202d978c2cb",
+            "type": "Bug",
+            "published_state": "Planning"
+        },
+        "AUTH-R96": {
+            "issue": "ZBDJ-1",
+            "hash": "sha256:3e1579fa66b95341a99a22e0b3c1e2c8f176c406020da2e256d95b1383024b98",
+            "type": "QA",
+            "published_state": "Open"
+        },
+        "AUTH-R35": {
+            "issue": "ZBDJ-2",
+            "hash": "sha256:608a9dd3a4d8703f23b958bee208fb62bdb7b0bb8147296e107e5e55f49499ed",
+            "type": "QA",
+            "published_state": "Open"
+        },
+        "AUTH-R93": {
+            "issue": "ZBDJ-3",
+            "hash": "sha256:0c7dff688412bdb8c1e154b7d89503dae4889412f10bd3e958a28f48da319d85",
+            "type": "QA",
+            "published_state": "Open"
+        },
+        "AUTH-R17": {
+            "issue": "ZBDJ-4",
+            "hash": "sha256:78127edb63ef5e1a7f87b7a626b6c44c499ea3824760692545f2b3afb1124ad8",
+            "type": "QA",
+            "published_state": "Open"
+        },
+        "AUTH-R41": {
+            "issue": "ZBDJ-5",
+            "hash": "sha256:b451615cc441d430ec97b4758f07cc4a09d4907ebbc759ac1e6f71997bbc8ec3",
+            "type": "QA",
+            "published_state": "Open"
+        },
+        "AUTH-R44": {
+            "issue": "ZBDJ-6",
+            "hash": "sha256:a3ff57c722441a12d929f9a901831e8f5a0f8d7ff11f80061b404b21f92049a5",
+            "type": "QA",
+            "published_state": "Open"
+        },
+        "AUTH-R91": {
+            "issue": "ZBDJ-7",
+            "hash": "sha256:0b5c752722ef7bbc2554234e306984036db1233c19ca2ab523d82a62c1030313",
+            "type": "QA",
+            "published_state": "Open"
+        },
+        "AUTH-R92": {
+            "issue": "ZBDJ-8",
+            "hash": "sha256:0f1d2bf9371dcd2dce42f6db68d288e03d801af1f8dd903eba465ca3a020b7ce",
+            "type": "QA",
+            "published_state": "Open"
+        },
+        "AUTH-R94": {
+            "issue": "ZBDJ-9",
+            "hash": "sha256:c56c4e80f936de8a7ca0b3e75e820f0ec5689489005bdb571c05690f6fe5f387",
+            "type": "QA",
+            "published_state": "Open"
+        },
+        "AUTH-R95": {
+            "issue": "ZBDJ-10",
+            "hash": "sha256:f181dbc47c19aeff7a13f4e64750fcba23e1a63cb4357673e0d3db21eaf5c66e",
+            "type": "QA",
+            "published_state": "Open"
+        },
+        "AUTH-R97": {
+            "issue": "ZBDJ-11",
+            "hash": "sha256:e606eb96116604ad64e3aeb81bd5ea0dbd58aa2f2673392f12690c04541e3076",
+            "type": "QA",
+            "published_state": "Open"
+        },
+        "zb_auth::epic": {
+            "issue": "ZBDJ-12",
+            "hash": "sha256:d76a938af3ce1e6c35bf155341b285e7b1db27fab700b4109bafbfa97163f317",
+            "type": "Epic",
+            "published_state": "Planning"
+        },
+        "zb_auth::story::models": {
+            "issue": "ZBDJ-13",
+            "hash": "sha256:2906431a65e884f33dd42a975fbc1858eeeb10c529cce6bc6f6e05dc72f16697",
+            "type": "User Story",
+            "published_state": "Planning"
+        },
+        "zb_auth::story::api.services": {
+            "issue": "ZBDJ-14",
+            "hash": "sha256:f6d160b37212908019eaf4531480847172719d6722e3c0b26365961f3a43dc1a",
+            "type": "User Story",
+            "published_state": "Planning"
+        },
+        "zb_auth::story::api.serializers": {
+            "issue": "ZBDJ-15",
+            "hash": "sha256:bf693c15a77d9628936d0f154fa3527d87ee3f9bf0f0d00100adcb09cfa9d85a",
+            "type": "User Story",
+            "published_state": "Planning"
+        },
+        "zb_auth::story::lib": {
+            "issue": "ZBDJ-16",
+            "hash": "sha256:78e1b740c5c11e0dfbe3d477dc0e88a5fe903363f6f7bfc086343564ac5fcf50",
+            "type": "User Story",
+            "published_state": "Planning"
+        },
+        "zb_auth::story::views": {
+            "issue": "ZBDJ-17",
+            "hash": "sha256:63be2ff3fc580f28997c85ecb18e69363ae2fe84885a3fe05044bbb485d8bb3e",
+            "type": "User Story",
+            "published_state": "Planning"
+        },
+        "zb_auth::story::transversal": {
+            "issue": "ZBDJ-18",
+            "hash": "sha256:2dd14c90105f28023840abb9ef3296fdb4535439f93c72b0447885372321606e",
+            "type": "User Story",
+            "published_state": "Planning"
+        },
+        "zb_auth::story::lib.managers": {
+            "issue": "ZBDJ-19",
+            "hash": "sha256:6a893fd676b75a00c9243da1c5245a7a3cfee06d4f3bf4ada4555c91bf7f6196",
+            "type": "User Story",
+            "published_state": "Planning"
+        },
+        "zb_auth::story::(raiz)": {
+            "issue": "ZBDJ-20",
+            "hash": "sha256:2700944813edb4a82d6058224a971dea9991e404b5bab9765db4cb4d29e70495",
+            "type": "User Story",
+            "published_state": "Planning"
+        },
+        "zb_auth::story::api": {
+            "issue": "ZBDJ-21",
+            "hash": "sha256:afc0b3676cd85e0a6c183eca629b17f097af3b8ea2bd9989974c9129ef36000b",
+            "type": "User Story",
+            "published_state": "Planning"
+        },
+        "zb_auth::story::lib.enums": {
+            "issue": "ZBDJ-22",
+            "hash": "sha256:83a10c49e519ba694c85ee06971c854daf06024454c4b680bd387e01e0a75e8f",
+            "type": "User Story",
+            "published_state": "Planning"
+        },
+        "AUTH-S56": {
+            "issue": "ZBDJ-23",
+            "hash": "sha256:63bfc996c010aec40673cf66ad5dc0a8dfe0b5d0bba5acea27870ff012c240f3",
+            "type": "QA",
+            "published_state": "Reported"
+        },
+        "AUTH-S57": {
+            "issue": "ZBDJ-24",
+            "hash": "sha256:c848af5a510c5e703a886033b83326dac6f8a6409b6db5e02990924dc328b748",
+            "type": "QA",
+            "published_state": "Reported"
+        },
+        "AUTH-R1": {
+            "issue": "ZBDJ-25",
+            "hash": "sha256:85844cf460ea149936bdcbbdde99269798d21d146dacc5324c637e65fc4f886b",
+            "type": "QA",
+            "published_state": "Reported"
+        },
+        "AUTH-R6": {
+            "issue": "ZBDJ-26",
+            "hash": "sha256:78d2ad4c55e151b54d6468b40eec0b8a2e11c12e0d4c44ec139dae4aa8619ce9",
+            "type": "QA",
+            "published_state": "Open"
+        },
+        "AUTH-R7": {
+            "issue": "ZBDJ-27",
+            "hash": "sha256:5a7a8995f09d9a77898ca656020d1162c1c14dab2905a6f9e9de880b78b6d08b",
+            "type": "QA",
+            "published_state": "Open"
+        },
+        "AUTH-R8": {
+            "issue": "ZBDJ-28",
+            "hash": "sha256:a49cd156d99782a9cc0d99d6ab49a6e3ab0548d88ee6f4e7ba5ba2517dc2827e",
+            "type": "QA",
+            "published_state": "Open"
+        },
+        "AUTH-R9": {
+            "issue": "ZBDJ-29",
+            "hash": "sha256:8d06cf8c61300a3a15bda492ba222920d10e3fa4aad7e571531646aba0f6ac0b",
+            "type": "QA",
+            "published_state": "Open"
+        },
+        "AUTH-R10": {
+            "issue": "ZBDJ-30",
+            "hash": "sha256:4cd339503f289b54a595cc55f6ebdc4e0bb4a091f8c397cf32a8b4b8efff3ec3",
+            "type": "QA",
+            "published_state": "Open"
+        },
+        "AUTH-R11": {
+            "issue": "ZBDJ-31",
+            "hash": "sha256:7d577f0b44ca4d5674fc173438525bb8442421cf94aea1c3dddc89688d755de8",
+            "type": "QA",
+            "published_state": "Open"
+        },
+        "AUTH-R12": {
+            "issue": "ZBDJ-32",
+            "hash": "sha256:4e8a7263a8cd40619ba77794f41b2bf87eb27d2d50d0c5312104c20c532fc54c",
+            "type": "QA",
+            "published_state": "Open"
+        },
+        "AUTH-R13": {
+            "issue": "ZBDJ-33",
+            "hash": "sha256:8997619c648c4aaed7032a49a865cbc61514bce0fd84f05c5500da7f7b5e9928",
+            "type": "QA",
+            "published_state": "Open"
+        },
+        "AUTH-R14": {
+            "issue": "ZBDJ-34",
+            "hash": "sha256:9419ac5f5f0de4fab459e7efc9948ef9eeda46798ed494cee078ad63f700d5cb",
+            "type": "QA",
+            "published_state": "Open"
+        },
+        "AUTH-R15": {
+            "issue": "ZBDJ-35",
+            "hash": "sha256:ef466ed988e0a21261155adee062ac3f7d9b8e2b00d497c59113bce7c5d81ba3",
+            "type": "QA",
+            "published_state": "Open"
+        },
+        "AUTH-R16": {
+            "issue": "ZBDJ-36",
+            "hash": "sha256:88a9a6b6d908caf94f2eea6bffcf6a8288c2eef3bcfaaccd9b0e77ffc199e7c3",
+            "type": "QA",
+            "published_state": "Open"
+        },
+        "AUTH-R18": {
+            "issue": "ZBDJ-37",
+            "hash": "sha256:034bf5f7a798a4530de35029552a15bcda4bad6823267679a112520a963444bc",
+            "type": "QA",
+            "published_state": "Open"
+        },
+        "AUTH-R19": {
+            "issue": "ZBDJ-38",
+            "hash": "sha256:b05e0df2426c1c53286662e0143ab94aa39bb3813144a0ddf3949faf5ead99c5",
+            "type": "QA",
+            "published_state": "Open"
+        },
+        "AUTH-R20": {
+            "issue": "ZBDJ-39",
+            "hash": "sha256:c32c71a8fd87c2cfd54f9e75c56781452c61578afc62b2b38ac95e6cededc7ef",
+            "type": "QA",
+            "published_state": "Open"
+        },
+        "AUTH-R21": {
+            "issue": "ZBDJ-40",
+            "hash": "sha256:092a5d26b438312af1398a97eff935936a8db82d5c12bff2ea0134bd32793f7d",
+            "type": "QA",
+            "published_state": "Open"
+        },
+        "AUTH-R22": {
+            "issue": "ZBDJ-41",
+            "hash": "sha256:434830d79f521132d5f52222092cfecf166781f8870f5566e033afcf527b935b",
+            "type": "QA",
+            "published_state": "Open"
+        },
+        "AUTH-R23": {
+            "issue": "ZBDJ-42",
+            "hash": "sha256:115828f67c96c1a491a9377827598d246d5c417be68271c3146cc4f365744045",
+            "type": "QA",
+            "published_state": "Open"
+        },
+        "AUTH-R24": {
+            "issue": "ZBDJ-43",
+            "hash": "sha256:9f9e3178c0f2da0947736af070ce8684080f961ee96ced6a5802cee53f0fcc48",
+            "type": "QA",
+            "published_state": "Open"
+        },
+        "AUTH-R25": {
+            "issue": "ZBDJ-44",
+            "hash": "sha256:99121e5c069b40dff0de44d2a42ae5119e9b11ec7892a65968024f43c289ae03",
+            "type": "QA",
+            "published_state": "Open"
+        },
+        "AUTH-R26": {
+            "issue": "ZBDJ-45",
+            "hash": "sha256:e450839527d9725234074d7b0cc759926c639930ce8c6467b80100d7450fc36f",
+            "type": "QA",
+            "published_state": "Open"
+        },
+        "AUTH-R27": {
+            "issue": "ZBDJ-46",
+            "hash": "sha256:2bd6044a771dcb0e66dbb8ce6e519f2b3441bb3a85eac209b992c20bb6f617fb",
+            "type": "QA",
+            "published_state": "Open"
+        },
+        "AUTH-R28": {
+            "issue": "ZBDJ-47",
+            "hash": "sha256:77a7095549f7a4c83dbfe0f75043d8a92a91b296b2b1cbc8de14ea51925e3047",
+            "type": "QA",
+            "published_state": "Open"
+        },
+        "AUTH-R29": {
+            "issue": "ZBDJ-48",
+            "hash": "sha256:2ca662a01eb0ec75fb88450f1343b2fb7c570d9134efd37639b9ea08b75c9ec2",
+            "type": "QA",
+            "published_state": "Open"
+        },
+        "AUTH-R30": {
+            "issue": "ZBDJ-49",
+            "hash": "sha256:37494d0db34e99c0ef5ca0b77e805f0c4c7f18637baa2ead98172557990eef64",
+            "type": "QA",
+            "published_state": "Open"
+        },
+        "AUTH-R31": {
+            "issue": "ZBDJ-50",
+            "hash": "sha256:fb636c737dccfbd6d636a31b1065ffbaa40785c7f3e99d11ece4c813dfad7eef",
+            "type": "QA",
+            "published_state": "Open"
+        },
+        "AUTH-R32": {
+            "issue": "ZBDJ-51",
+            "hash": "sha256:82e10e3738f3fc7117c0189c45a5edd48a5615860f6effc803c882d6f71f29c3",
+            "type": "QA",
+            "published_state": "Open"
+        },
+        "AUTH-R33": {
+            "issue": "ZBDJ-52",
+            "hash": "sha256:1df553344fcfe0d16837708ca5ed8fe22921fe42a3a94d1e7ace401ce5a8a6c4",
+            "type": "QA",
+            "published_state": "Open"
+        },
+        "AUTH-R34": {
+            "issue": "ZBDJ-53",
+            "hash": "sha256:9c4b33cf8ba7899efe648d5f6a6d6d9b447136e1d97ebcd4b81db153fdcf70a7",
+            "type": "QA",
+            "published_state": "Open"
+        },
+        "AUTH-R36": {
+            "issue": "ZBDJ-54",
+            "hash": "sha256:0e614ffedeeef7a73719b0aae42518656921c0cccbf835100790fca0cbd62403",
+            "type": "QA",
+            "published_state": "Open"
+        },
+        "AUTH-R37": {
+            "issue": "ZBDJ-55",
+            "hash": "sha256:f4445e88bc6ed9b1fe00e1c22b606f836823fdffc05cdac4bfd74a575c26f78c",
+            "type": "QA",
+            "published_state": "Open"
+        },
+        "AUTH-R38": {
+            "issue": "ZBDJ-56",
+            "hash": "sha256:271969b80f72015260b877b8ab60f2dcd4734cc6345d18f6750cd1094b90cb5c",
+            "type": "QA",
+            "published_state": "Open"
+        },
+        "AUTH-R39": {
+            "issue": "ZBDJ-57",
+            "hash": "sha256:07c66982d102dc338ed3f87b79466386df500ede95e65b98fc55691a5bd1395f",
+            "type": "QA",
+            "published_state": "Open"
+        },
+        "AUTH-R40": {
+            "issue": "ZBDJ-58",
+            "hash": "sha256:69c6c07fecbef59c4f24184ef6456ae351d609b505a8b778af92ff3227c633dc",
+            "type": "QA",
+            "published_state": "Open"
+        },
+        "AUTH-R42": {
+            "issue": "ZBDJ-59",
+            "hash": "sha256:cd2bca38805f7057ed22e3f45b0af8bd6b3e35f6a688e0ff84c55bcb5cdcbdad",
+            "type": "QA",
+            "published_state": "Open"
+        },
+        "AUTH-R43": {
+            "issue": "ZBDJ-60",
+            "hash": "sha256:cc574e1c4299f4a8760c3e13d5a0f0b40c3beb1b811852b6c7f9b09ac91da2bc",
+            "type": "QA",
+            "published_state": "Open"
+        },
+        "AUTH-R45": {
+            "issue": "ZBDJ-61",
+            "hash": "sha256:752a270d610ac2dd5b898bdf3a93515af63609721e03042f0c4e93496d969d11",
+            "type": "QA",
+            "published_state": "Open"
+        },
+        "AUTH-R46": {
+            "issue": "ZBDJ-62",
+            "hash": "sha256:2c00ee64f68e69faea4f147c3acaeda512fd571b3a0f722876e920935cd2c5e0",
+            "type": "QA",
+            "published_state": "Open"
+        },
+        "AUTH-R47": {
+            "issue": "ZBDJ-63",
+            "hash": "sha256:d74fe467cab3a4a93e7f358842822e1eb66618161756f43ff212669817ceffa4",
+            "type": "QA",
+            "published_state": "Open"
+        },
+        "AUTH-R48": {
+            "issue": "ZBDJ-64",
+            "hash": "sha256:42a90d6b019f3f9a9eb7c5a8f1d85727414aff9d2933ae26664f72a57d97b604",
+            "type": "QA",
+            "published_state": "Open"
+        },
+        "AUTH-R49": {
+            "issue": "ZBDJ-65",
+            "hash": "sha256:9cce58db8222dad25c2be094f8efc2df370a53e8b31242524a011c0e0a42afc1",
+            "type": "QA",
+            "published_state": "Open"
+        },
+        "AUTH-R50": {
+            "issue": "ZBDJ-66",
+            "hash": "sha256:3195a37ec97e9f215e23e45d63272bd3b180f1852beea34cec084a142e366db3",
+            "type": "QA",
+            "published_state": "Open"
+        },
+        "AUTH-R51": {
+            "issue": "ZBDJ-67",
+            "hash": "sha256:9ba3dfda61c293fa081ec9c0a34cc69d954d51312ac6a1572dc7f9f3b1731ff9",
+            "type": "QA",
+            "published_state": "Open"
+        },
+        "AUTH-R52": {
+            "issue": "ZBDJ-68",
+            "hash": "sha256:4fdbb55fce6b1c5e4d09c4013c5e41129f67da21e56d4fe7342e15f8e68c66c4",
+            "type": "QA",
+            "published_state": "Open"
+        },
+        "AUTH-R53": {
+            "issue": "ZBDJ-69",
+            "hash": "sha256:c3a6280ac3ede8b2a5f9efe2f5f51a9d6469fd371760e1333aec81bad6009f78",
+            "type": "QA",
+            "published_state": "Open"
+        },
+        "AUTH-R54": {
+            "issue": "ZBDJ-70",
+            "hash": "sha256:cb927e56233f979fdfba16fd85b3dd86273153e6d0bb4e36de2e36bb193f034a",
+            "type": "QA",
+            "published_state": "Open"
+        },
+        "AUTH-R55": {
+            "issue": "ZBDJ-71",
+            "hash": "sha256:2eb88272b9a89679eb6a697f6a44439920586bcff9b0fd2d88c0aa2ad2439f0a",
+            "type": "QA",
+            "published_state": "Open"
+        },
+        "AUTH-R56": {
+            "issue": "ZBDJ-72",
+            "hash": "sha256:8111a8e741fc96137c772699f6816edd4d261110e7234d388cf1813acffa4782",
+            "type": "QA",
+            "published_state": "Open"
+        },
+        "AUTH-R57": {
+            "issue": "ZBDJ-73",
+            "hash": "sha256:b363ef758b011da39e970b4e547dde5d3cc25eccdfbefeb0870b5ec3fc5aba28",
+            "type": "QA",
+            "published_state": "Open"
+        },
+        "AUTH-R58": {
+            "issue": "ZBDJ-74",
+            "hash": "sha256:0d40370cd36b9609f2e99c9b5327f1f1c94a0bdac7ab6ebc7203070a9cb972e9",
+            "type": "QA",
+            "published_state": "Open"
+        },
+        "AUTH-R59": {
+            "issue": "ZBDJ-75",
+            "hash": "sha256:004bc69edee1b6e0c6fd769f755fc59a6ccf64bb57d42df55253491839894abb",
+            "type": "QA",
+            "published_state": "Open"
+        },
+        "AUTH-R60": {
+            "issue": "ZBDJ-76",
+            "hash": "sha256:0551273dc9f5fb192cd27274f08e9b7a0671f0562e073fc8c50a6ad4038b9205",
+            "type": "QA",
+            "published_state": "Open"
+        },
+        "AUTH-R61": {
+            "issue": "ZBDJ-77",
+            "hash": "sha256:853b7156244e13219a14770759194dfd0d084acd4dd2bf2559b735551928c263",
+            "type": "QA",
+            "published_state": "Open"
+        },
+        "AUTH-R62": {
+            "issue": "ZBDJ-78",
+            "hash": "sha256:eb3d1f24ab3c6985605eae344a0d7441ae176fe020201e8fcb83a8779fd1d56e",
+            "type": "QA",
+            "published_state": "Open"
+        },
+        "AUTH-R63": {
+            "issue": "ZBDJ-79",
+            "hash": "sha256:254b9db5fc2ddeceef909eceb3bace39d69da81a59bb0bc399bc4ab95e731364",
+            "type": "QA",
+            "published_state": "Open"
+        },
+        "AUTH-R64": {
+            "issue": "ZBDJ-80",
+            "hash": "sha256:b4c751659c805fafa03cf7c2fcffb7e82b7f9d3a62078c3accfe4e8f279d2d35",
+            "type": "QA",
+            "published_state": "Open"
+        },
+        "AUTH-R65": {
+            "issue": "ZBDJ-81",
+            "hash": "sha256:52910bec6356f7429eab7b85a7a8c14a9ebea48f01babf09143cb720630ee0b5",
+            "type": "QA",
+            "published_state": "Open"
+        },
+        "AUTH-R66": {
+            "issue": "ZBDJ-82",
+            "hash": "sha256:69457126687b86d2c850801f2d44823d100c0bda3e385ae503dae82e05d047da",
+            "type": "QA",
+            "published_state": "Open"
+        },
+        "AUTH-R67": {
+            "issue": "ZBDJ-83",
+            "hash": "sha256:9454a0db4d49e8bbbe13e7f82fd166932ac5f2379f84960d29c39c8eede3e74c",
+            "type": "QA",
+            "published_state": "Open"
+        },
+        "AUTH-R68": {
+            "issue": "ZBDJ-84",
+            "hash": "sha256:fc0cc93c833b02a0d9c4489610ac7e2204c825187f8369a7c2a4565412f63292",
+            "type": "QA",
+            "published_state": "Open"
+        },
+        "AUTH-R69": {
+            "issue": "ZBDJ-85",
+            "hash": "sha256:b78d3157519a5df2aca5e90bde45c2175d474cf589db980c14b5ee21bc44b5be",
+            "type": "QA",
+            "published_state": "Open"
+        },
+        "AUTH-R70": {
+            "issue": "ZBDJ-86",
+            "hash": "sha256:bb5ef212864b6e920bd84dd9615db154eb4964e8188824f3b36e213c143dc0a8",
+            "type": "QA",
+            "published_state": "Open"
+        },
+        "AUTH-R71": {
+            "issue": "ZBDJ-87",
+            "hash": "sha256:183b1385805a372a107d028cd1ccf77455c0a5410e1acb6f96db28960a4c3f8b",
+            "type": "QA",
+            "published_state": "Open"
+        },
+        "AUTH-R72": {
+            "issue": "ZBDJ-88",
+            "hash": "sha256:2919c31721319f83b46f620a08f47fbb76ab275058a0f616edae6f549d081c1a",
+            "type": "QA",
+            "published_state": "Open"
+        },
+        "AUTH-R73": {
+            "issue": "ZBDJ-89",
+            "hash": "sha256:1b5e18b5e906182d43c3a588154d54676c048f026beb8a7e31ed27dd02eda796",
+            "type": "QA",
+            "published_state": "Open"
+        },
+        "AUTH-R74": {
+            "issue": "ZBDJ-90",
+            "hash": "sha256:ad0ea2e4ca974422e44eb0788423c691551c8f09f220b97c79a04cc90ddebdaa",
+            "type": "QA",
+            "published_state": "Open"
+        },
+        "AUTH-R75": {
+            "issue": "ZBDJ-91",
+            "hash": "sha256:f0a84a15a389b204fd5c681dfa6ebce050a2410379e60eb600d75bc503f78fea",
+            "type": "QA",
+            "published_state": "Open"
+        },
+        "AUTH-R76": {
+            "issue": "ZBDJ-92",
+            "hash": "sha256:335e19070d7a0577db4ae7544d01f8b36f1b42353de0bab92571f0a8ca8985fb",
+            "type": "QA",
+            "published_state": "Open"
+        },
+        "AUTH-R77": {
+            "issue": "ZBDJ-93",
+            "hash": "sha256:e3fcb7c8c7b7d1181cf2b510315f562eee15d3d67c525f3b1c78b1e8909d357a",
+            "type": "QA",
+            "published_state": "Open"
+        },
+        "AUTH-R78": {
+            "issue": "ZBDJ-94",
+            "hash": "sha256:269b4b67b6063ec87e2ea401d3886543756d4309650be163e04de59a42c97128",
+            "type": "QA",
+            "published_state": "Open"
+        },
+        "AUTH-R79": {
+            "issue": "ZBDJ-95",
+            "hash": "sha256:8b348924ae8e00115e137fc1499481111512109adf56a6917866119db6d08fe8",
+            "type": "QA",
+            "published_state": "Open"
+        },
+        "AUTH-R80": {
+            "issue": "ZBDJ-96",
+            "hash": "sha256:2f1cc32680748e8f68792617089c14b9ddf21652e59f85a3f418d67503960ad6",
+            "type": "QA",
+            "published_state": "Open"
+        },
+        "AUTH-R81": {
+            "issue": "ZBDJ-97",
+            "hash": "sha256:9ffa3d360d697620bb09b25b7aa8418cacd98a7133ebcb62044c55c0dee348ff",
+            "type": "QA",
+            "published_state": "Open"
+        },
+        "AUTH-R82": {
+            "issue": "ZBDJ-98",
+            "hash": "sha256:f5eb0dbead70af60145d0baa849952904ce7354748f32a9095e19b0a9e3930ff",
+            "type": "QA",
+            "published_state": "Open"
+        },
+        "AUTH-R83": {
+            "issue": "ZBDJ-99",
+            "hash": "sha256:0f6c91cb7d9d0083fdb8a70bd4105d2cfeecf090ecb9827232d43b82f5dfee84",
+            "type": "QA",
+            "published_state": "Open"
+        },
+        "AUTH-R84": {
+            "issue": "ZBDJ-100",
+            "hash": "sha256:f8a3483687b3b80e7773a5f7c26abdb1b550e39b34f57df16fa3a54345ed590f",
+            "type": "QA",
+            "published_state": "Open"
+        },
+        "AUTH-R85": {
+            "issue": "ZBDJ-101",
+            "hash": "sha256:a4a78f27af54cba50a35387b3ea293bb159425a41ee76531f9f7f080e6c88ea8",
+            "type": "QA",
+            "published_state": "Open"
+        },
+        "AUTH-R86": {
+            "issue": "ZBDJ-102",
+            "hash": "sha256:ca2772da09b1cf5f4fd9a845f24d8316e32c247cbe43ef3abaac24bb45d4eb7b",
+            "type": "QA",
+            "published_state": "Open"
+        },
+        "AUTH-R87": {
+            "issue": "ZBDJ-103",
+            "hash": "sha256:6c9334a01e1423b8a7a75134d5418b77e41beea03eb8e32fc5b3c87de56141a6",
+            "type": "QA",
+            "published_state": "Open"
+        },
+        "AUTH-R88": {
+            "issue": "ZBDJ-104",
+            "hash": "sha256:8d46574be46a5ae10c73c037c56e2fd0e63b2e52346da0d28c615f885c5e6c45",
+            "type": "QA",
+            "published_state": "Open"
+        },
+        "AUTH-R89": {
+            "issue": "ZBDJ-105",
+            "hash": "sha256:7983856e59790dc5176796c9a71080dc29f3566cec05979d998314cc579873a7",
+            "type": "QA",
+            "published_state": "Open"
+        },
+        "AUTH-R90": {
+            "issue": "ZBDJ-106",
+            "hash": "sha256:31a74e51cd69b0f7fad28d883fad9e006c422a00e9c542d68362aa97c468df80",
+            "type": "QA",
+            "published_state": "Open"
+        },
+        "AUTH-R2": {
+            "issue": "ZBDJ-107",
+            "hash": "sha256:ef7d7d7a9aacdfcbf6a03d0cdc4a360b1a616459d420e1b3cbeffff34f7d7963",
+            "type": "QA",
+            "published_state": "Done"
+        },
+        "AUTH-R3": {
+            "issue": "ZBDJ-108",
+            "hash": "sha256:247fa8ae0f330e791ef8c8d726f48eaf922ec4cfc6e280605fc258cc414a5efd",
+            "type": "QA",
+            "published_state": "Done"
+        },
+        "AUTH-R4": {
+            "issue": "ZBDJ-109",
+            "hash": "sha256:b6d2da3748f36478bf5dbd7e6c14843604e23970b2ed1addab1c2246437d22a5",
+            "type": "QA",
+            "published_state": "Done"
+        },
+        "AUTH-R5": {
+            "issue": "ZBDJ-110",
+            "hash": "sha256:3ff819519b71a46c97b60f16bfc743de24bfcb3d354c610dc2cc38027171b14f",
+            "type": "QA",
+            "published_state": "Done"
+        },
+        "zb_auth::story::openapi.paths": {
+            "issue": "ZBDJ-111",
+            "hash": "sha256:0d2ce8f5708144977394892b4a45c2f0d7d350ef739c48fa8d4312c57de66293",
+            "type": "User Story",
+            "published_state": "Planning"
+        },
+        "AUTH-Q01": {
+            "issue": "ZBDJ-112",
+            "hash": "sha256:81b820e713dc4374410d640781051e393943ab507135737bfe1caec43b8298d2",
+            "type": "QA",
+            "published_state": "Open"
+        },
+        "AUTH-Q02": {
+            "issue": "ZBDJ-113",
+            "hash": "sha256:697c70c835d5d8c7a263d6f9936b41a35b1d7d156d5cc4b3ea0c7c5221507796",
+            "type": "QA",
+            "published_state": "Open"
+        },
+        "AUTH-Q03": {
+            "issue": "ZBDJ-114",
+            "hash": "sha256:c4cedef6257ec0d7d6aec4094f42c19b03cecef2896aed69ac5e6b8219034745",
+            "type": "QA",
+            "published_state": "Open"
+        },
+        "AUTH-Q04": {
+            "issue": "ZBDJ-115",
+            "hash": "sha256:83336b4a40d663aa14e9761d52d0bcc9b08a5cb786349ade5687b0c25f3323e2",
+            "type": "QA",
+            "published_state": "Open"
+        },
+        "AUTH-Q05": {
+            "issue": "ZBDJ-116",
+            "hash": "sha256:cde0ce63a1a2fb4721667be902dcf82da64656f6f36523e50b8a64810cf8ae47",
+            "type": "QA",
+            "published_state": "Open"
+        },
+        "AUTH-Q06": {
+            "issue": "ZBDJ-117",
+            "hash": "sha256:cb31c9359f3a132473ab635d99bcbaf3ece99546e8ca07a6936207f6c9cefd30",
+            "type": "QA",
+            "published_state": "Open"
+        },
+        "AUTH-Q07": {
+            "issue": "ZBDJ-118",
+            "hash": "sha256:f6aa123b75d4ee8b48e25ddbc126a660e99c9443090036fec369fefd4729f8ec",
+            "type": "QA",
+            "published_state": "Open"
+        },
+        "AUTH-Q08": {
+            "issue": "ZBDJ-119",
+            "hash": "sha256:a9928be7ced9c276c398d872642703a1842c7576570acdb1de451de828d83fe9",
+            "type": "QA",
+            "published_state": "Open"
+        },
+        "AUTH-Q09": {
+            "issue": "ZBDJ-120",
+            "hash": "sha256:038b6a1e1df7c289d07681cf30b96243213275686c2512ca49ed8d0e760221ca",
+            "type": "QA",
+            "published_state": "Open"
+        },
+        "AUTH-Q10": {
+            "issue": "ZBDJ-121",
+            "hash": "sha256:97377eb03019eb30a39978402b62f820c8bcee8c9e69d8d76a57760e90b95a70",
+            "type": "QA",
+            "published_state": "Open"
+        },
+        "AUTH-Q11": {
+            "issue": "ZBDJ-122",
+            "hash": "sha256:2f3e260e9972a93eeb54f6447cc638f7625d24742cc068b9621b36b6d4c61228",
+            "type": "QA",
+            "published_state": "Open"
+        },
+        "AUTH-Q12": {
+            "issue": "ZBDJ-123",
+            "hash": "sha256:73fd4f41aa5a178b7dd2fe4347f09d89e60fc9042e03b3a8beae67559f0bc1da",
+            "type": "QA",
+            "published_state": "Open"
+        },
+        "AUTH-Q13": {
+            "issue": "ZBDJ-124",
+            "hash": "sha256:3638d7cb2c292620ec3ec430f14afff8439937de374320dc3a427cdf1fa5f804",
+            "type": "QA",
+            "published_state": "Open"
+        },
+        "AUTH-Q14": {
+            "issue": "ZBDJ-125",
+            "hash": "sha256:66550abdfcab380ffc5b79b71fda62ca8dd0bfef7529a777acccd32f28a1ea62",
+            "type": "QA",
+            "published_state": "Open"
+        },
+        "AUTH-Q15": {
+            "issue": "ZBDJ-126",
+            "hash": "sha256:228e85c438103cb445a49409b22ead8d4e8cbc0c5fbb5b89006fc93e02b6bc45",
+            "type": "QA",
+            "published_state": "Open"
+        },
+        "TEST-AUTH-T1": {
+            "issue": "ZBDJ-127",
+            "hash": "sha256:62845288a0473aafe5bb6257239289d096397999cc2faa2d4b795caaff1210ae",
+            "type": "Test",
+            "published_state": "Open"
+        },
+        "TEST-AUTH-T2": {
+            "issue": "ZBDJ-128",
+            "hash": "sha256:eeba10f521a1545f5c0a1b136cacc563b7ee14628639638333c1812c30629a7f",
+            "type": "Test",
+            "published_state": "Open"
+        },
+        "TEST-AUTH-T3": {
+            "issue": "ZBDJ-129",
+            "hash": "sha256:d47482c2822b672f814b89cce25e85d883b840c6b00ab4f65ece6423e38288cb",
+            "type": "Test",
+            "published_state": "Open"
+        },
+        "TEST-AUTH-E1": {
+            "issue": "ZBDJ-130",
+            "hash": "sha256:2aa73ad1ecf02c667503bb9927908e873f83ece6897abfdde8f5599acafa2787",
+            "type": "Test",
+            "published_state": "Open"
+        },
+        "TEST-AUTH-E2": {
+            "issue": "ZBDJ-131",
+            "hash": "sha256:d3bc247f9f503346fe7de114d04bf0e67a3e28ff41fb97a93e4048235e8aec66",
+            "type": "Test",
+            "published_state": "Open"
+        },
+        "TEST-AUTH-E3": {
+            "issue": "ZBDJ-132",
+            "hash": "sha256:70b77d9e35a3a21cc2d31c046df14645614b5009f692a558d33c2b26c7706477",
+            "type": "Test",
+            "published_state": "Open"
+        },
+        "TEST-AUTH-T4": {
+            "issue": "ZBDJ-139",
+            "hash": "sha256:pending",
+            "type": "Test",
+            "published_state": "Open"
+        },
+        "TEST-AUTH-E4": {
+            "issue": "ZBDJ-140",
+            "hash": "sha256:pending",
+            "type": "Test",
+            "published_state": "Open"
+        },
+        "TEST-AUTH-E5": {
+            "issue": "ZBDJ-141",
+            "hash": "sha256:pending",
+            "type": "Test",
+            "published_state": "Open"
+        }
     }
-  }
 }
